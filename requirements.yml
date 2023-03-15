@@ -1,0 +1,26 @@
+
+collections:
+  # https://docs.ansible.com/ansible/latest/collections/community/docker/index.html
+  - name: community.docker
+    version: 3.4.2
+
+  # https://docs.ansible.com/ansible/latest/collections/community/zabbix/index.html
+  - name: community.zabbix
+    version: 1.9.2
+
+  # https://github.com/ansible-collections/community.general
+  - name: community.general
+    version: 6.4.0
+
+  # https://docs.ansible.com/ansible/latest/collections/community/crypto/index.html
+  - name: community.crypto
+    version: 2.11.0
+
+roles:
+  # https://galaxy.ansible.com/geerlingguy/docker
+  - name: geerlingguy.docker
+    version: 6.1.0
+    
+  # https://galaxy.ansible.com/geerlingguy/pip
+  - name: geerlingguy.pip
+    version: 2.2.0
